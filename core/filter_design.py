@@ -30,7 +30,7 @@ def freq_samp(n: int, cutoff: list, r: float=1, fs: float=None) -> dict:
                 ]
     except TypeError as e:
         print(f'{e} Выход из программы')
-        raise SystemExit() from e   
+        raise SystemExit() from e
     return members
 
 
